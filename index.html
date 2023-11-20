@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header,
+        footer{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a{
+            color: #fff;
+            text-decoration: none;
+        }
+        .banner{
+            position: relative;
+            text-align: center;
+            color: #fff;
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .overlap-content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left-content{
+            flex: 1;
+            padding: 20px;
+        }
+        .right-image{
+            flex: 1;
+            text-align: center;
+        }
+        .content{
+            padding: 20px;
+            text-align: center;
+        }
+        .cards{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card{
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;  
+        }
+        form{
+            text-align: center;
+            padding: 20px;
+        }
+        input[type="text"],
+        textarea{
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+        input[type="submit"]{
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        iframe{
+            width: 100%;
+            height: 400px;
+        }
+        .portfolio-item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .feature{
+            text-align: center;
+            padding: 20px;  
+        }
+        .feature-cards{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .feature-card{
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nature</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About us</a>
+            <a href="#contact us">Contact us</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#features">Features</a>
+        </nav>
+    </header>
+    <div id="home">
+        <div class="banner" style="background-image: url('https://th.bing.com/th/id/R.057b31be70cc73b9d0c829205f90e02f?rik=PxrTE7PkNVZoRg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-nature-backgrounds-hd-resolution-1920x1080.jpg&ehk=hQzPW7PZMRmNSlTgkm1V0lR4FopZ7yGKJtUMRedf8wM%3d&risl=&pid=ImgRaw&r=0')">
+        <div class="overlap-content">
+            <h2>Welcome to our Website</h2>
+        </div> 
+    </div>
+    <div class="container">
+        <div class="left-content">
+            <p>Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science.</p>
+        </div>
+        <div class="right-image">
+            <img
+            src="https://th.bing.com/th/id/R.057b31be70cc73b9d0c829205f90e02f?rik=PxrTE7PkNVZoRg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-nature-backgrounds-hd-resolution-1920x1080.jpg&ehk=hQzPW7PZMRmNSlTgkm1V0lR4FopZ7yGKJtUMRedf8wM%3d&risl=&pid=ImgRaw&r=0"
+            alt="nature-background Image" style="width:100%"></imgsrc>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <h3>card1</h3>
+            <p>This is the content of card1.
+            </p>
+        </div>
+        <div class="card">
+            <h3>card2</h3>
+            <p>This is the content of card2.
+            </p>
+        </div>
+        <div class="card">
+            <h3>card3</h3>
+            <p>This is the content of card3.
+            </p>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="banner" style="background-image: url('https://th.bing.com/th/id/R.057b31be70cc73b9d0c829205f90e02f?rik=PxrTE7PkNVZoRg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-nature-backgrounds-hd-resolution-1920x1080.jpg&ehk=hQzPW7PZMRmNSlTgkm1V0lR4FopZ7yGKJtUMRedf8wM%3d&risl=&pid=ImgRaw&r=0')">
+        <div class="overlap-content">
+            <h2>About us</h2>
+        </div>
+    </div>
+    <div class="content">
+        <p>Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science.</p>
+    </div>
+</div>
+<div id="contact">
+    <div class="banner" style="background-image: url('https://th.bing.com/th/id/R.057b31be70cc73b9d0c829205f90e02f?rik=PxrTE7PkNVZoRg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-nature-backgrounds-hd-resolution-1920x1080.jpg&ehk=hQzPW7PZMRmNSlTgkm1V0lR4FopZ7yGKJtUMRedf8wM%3d&risl=&pid=ImgRaw&r=0')">
+        <div class="overlap-content">
+            <h2>Contact us</h2>
+            </div>
+</div>
+<form>
+    <input type="text" placeholder="Name">
+    <br>
+    <input type="text" placeholder="Email">
+    <br>
+    <textarea placeholder="Message">
+
+    </textarea>
+    <br>
+    <input type="Submit" value="Submit">
+</form>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/35npVaFGHMY?si=5qRx76PPiIHc4ZQL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>Address:Nature</p>
+</div>
+<div id="portfolio">
+    <div class="banner" style="background-image: url('https://th.bing.com/th/id/R.057b31be70cc73b9d0c829205f90e02f?rik=PxrTE7PkNVZoRg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-nature-backgrounds-hd-resolution-1920x1080.jpg&ehk=hQzPW7PZMRmNSlTgkm1V0lR4FopZ7yGKJtUMRedf8wM%3d&risl=&pid=ImgRaw&r=0')">
+        <div class="overlap-content">
+            <h2>portfolio</h2>
+         </div>
+    </div>
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <div class="portfolio-content">
+                <p>This is the content of the portfolio item.</p>
+            </div>
+            <div class="portfolio-image">
+                <img
+                src="https://th.bing.com/th/id/R.057b31be70cc73b9d0c829205f90e02f?rik=PxrTE7PkNVZoRg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-nature-backgrounds-hd-resolution-1920x1080.jpg&ehk=hQzPW7PZMRmNSlTgkm1V0lR4FopZ7yGKJtUMRedf8wM%3d&risl=&pid=ImgRaw&r=0"
+                alt="placeholder Image" style="width: 100%">
+            </div>
+        </div>
+     </div>
+</div>
+<div id="features">
+    <div class="banner" style="background-image: url('https://th.bing.com/th/id/R.057b31be70cc73b9d0c829205f90e02f?rik=PxrTE7PkNVZoRg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-nature-backgrounds-hd-resolution-1920x1080.jpg&ehk=hQzPW7PZMRmNSlTgkm1V0lR4FopZ7yGKJtUMRedf8wM%3d&risl=&pid=ImgRaw&r=0')">
+        <div class="overlap-content">
+            <h2>Features</h2>
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-cards">
+            <div class="feature-card">
+                <h3>Feature1</h3>
+                <p>This is the content of Feature1.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Feature2</h3>
+                <p>This is the content of Feature2.</p>
+            </div>
+            <div 
+            class="feature-card">
+                <h3>Feature3</h3>
+                <p>This is the content of Feature3.</p>
+            </div>
+         </div>
+    </div>
+ </div>
+ <footer>
+    <h3>Footer</h3>
+     <p>&copy; 2023 your company. All rights reserved.</p>
+ </footer>
+</body>
+</html>
